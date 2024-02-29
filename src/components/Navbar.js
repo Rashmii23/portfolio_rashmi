@@ -7,6 +7,8 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import { AiOutlineLaptop } from "react-icons/ai";
+
 import {
   AiFillStar,
   AiOutlineHome,
@@ -39,7 +41,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <AiOutlineLaptop className="img-fluid logo " alt="brand" />
+          <h3>Portfolio.</h3>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -95,7 +98,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/Rashmii23/portfolio_rashmi"
                 target="_blank"
                 className="fork-btn-inner"
               >
